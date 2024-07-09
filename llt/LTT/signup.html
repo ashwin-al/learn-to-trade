@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register form</title>
+    <link rel="stylesheet" href="logandsignup.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="signup.html">Register</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="logo">
+        <h1>LEARN<span>TO</span> TRADE</h1>
+    </div>
+    <div id="form">
+        <form action="register.php" method="post">
+            
+            <h2>SignUp</h2>
+    <label>Username:</label>
+    <input type="text" name="user" autocomplete="off" required>
+<br><br>
+    <label>Email:</label>
+    <input type="email" name="mail" autocomplete="off" required>
+<br><br>
+    <label>Create Password:</label>
+    <input type="password" name="pass1" required>
+<br><br>
+    <label>Re-Enter Password:</label>
+    <input type="password" name="pass2" required>
+    <br><br>
+
+    <div class="reg">
+        <input id="reg" type="submit" name="register" value="SignUp">
+    </div>
+    <p id="end">Already have an Account?</p>
+    <a href="login.html">Login</a>
+    </form>
+</div>
+</body>
+</html>

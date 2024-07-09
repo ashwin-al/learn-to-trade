@@ -1,0 +1,94 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    color: #fff;
+    padding: 50px 0;
+    margin: 30px;
+}
+
+/* Header styles */
+header {
+    margin: 0;
+    background-color: #333;
+    padding: 20px;
+    position: top;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Home section styles */
+.home {
+    padding: 50px;
+    text-align: center;
+}
+
+.home h1 {
+  color: #007BFF;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.home p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.home a {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home {
+        padding: 20px;
+    }
+
+    .home h1 {
+        font-size: 24px;
+    }
+
+    .home p {
+        font-size: 16px;
+    }
+
+    .home a {
+        padding: 10px 15px;
+    }
+}
+
+
+  h1{
+    color: #007BFF;
+  }
+  h2 {
+    text-align: center;
+    color: orangered;
+  }
+  
+  
+ .classreg{
+    align-content: center;
+    margin-left: 300px;
+ }
